@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Danielyan777 
+Danielyan777
+/
+ESP8266-Captive-Portal
+Public
+forked from 125K/ESP8266-Captive-Portal
+0
+062
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+ESP8266-Captive-Portal/WiFi_Captive1_Portal.ino
+@Danielyan777
+Danielyan777 3333333333333333333
+Latest commit 41eb54c 2 minutes ago
+ History
+ 1 contributor
+197 lines (164 sloc)  7.08 KB
+   
 // ESP8266 WiFi Captive Portal
 // By 125K (github.com/125K)
 
@@ -195,3 +226,16 @@ void setup() {
 void loop() { 
   if ((millis() - lastTick) > TICK_TIMER) {lastTick = millis();} 
 dnsServer.processNextRequest(); webServer.handleClient(); }
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
